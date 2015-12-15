@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Adam Hawkins",
+    "label": "Software Engineer & Manager",
+    "picture": "",
+    "email": "adam@hawkins.io",
+    "phone": "+19255778951",
+    "website": "http://hawkins.io",
+    "summary": "I hail from the one and only California Bay Area which undoubtedly helped spur my interest in tech. I started making websites from a young age (Pokemon cards) and quickly moved into dynamic website development (for muscle cars!). I went to university for Software Engineering, but quickly realized it was nowhere near as useful as my experience working as a Ruby developer. I dropped out moved abroad in 2011 to pursue work in Helsinki, Finland. Since then I've traveled to over 10 countries and lived in Finland, Germany, and Sweden. I've continued to travel around the world speaking with passion on software engineering fulfilling my desire to travel and improve the world around me by educating others.",
+    "location": {
+      "address": "826 Hazel",
+      "postalCode": "CA 94550",
+      "city": "Livermore",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "adman65",
+        "url": "https://github.com/ahawkins"
+      },
+      {
+        "network": "Twitter",
+        "username": "adman65",
+        "url": "http://twitter.com/ahawkins"
+      },
+      {
+        "network": "Speakerdeck",
+        "username": "ahawkins",
+        "url": "https://soundcloud.com/ahawkins"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Saltside",
+      "position": "Technical Manager",
+      "website": "http://saltside.se",
+      "startDate": "2013-05-20",
+      "summary": "Hired as general purpose web developer for user facing and API/services related work on multi-market classifieds product. Promoted to lead backend developer/architect. Switched to SRE team lead to support PD teams and manage internal tooling and infrastructure and training new employees.",
+      "highlights": [
+        "Architected second iteration of product & infrastructure stack",
+        "Lead Services team to refactor monoliths into a Service Oriented Architecture",
+        "Pushed docker adoption for polygot teams",
+        "Training employees in company's second PDC office",
+        "Spoke @ Wrocove.rb 2014 on application architecture",
+        "Gave workshop @ RailsConf 2014 on application architecture",
+        "Guest on the Fearless Refactoring podcast"
+      ]
+    },
+    {
+      "company": "Radium Software",
+      "position": "Lead Developer",
+      "website": "http://www.radiumcrm.com",
+      "startDate": "2010-02-20",
+      "endDate": "2013-05-01",
+      "summary": "Hired to rescue Ruby on Rails prototype. Successfully rescued the project by adding automated tests to facilitate new development. Then created APIs to develop mobile applications. Participate in product development meetings and growing the business to first paying customer.",
+      "highlights": [
+        "Built initial CRM prototype for customers & investors",
+        "Pioneered large scale JS application development with Ember.js",
+        "Created one of first build tools for JS applications",
+        "Lead rewriting prototype into production product",
+        "Spoke @ FrozenRails Conf in 2012 on caching strategies",
+        "Spoke @ RubyConfAU 2013 on Concurrency in Ruby",
+        "Spoke @ Wroclove.rb 2013 on Concurrency in Ruby",
+        "Guest on the JavaScript jabber podcast"
+      ]
+    },
+    {
+      "company": "LARDP",
+      "position": "Software Engineer",
+      "startDate": "2008-04-01",
+      "endDate": "2010-09-01",
+      "summary": "Hired as an aquatic manager for lifeguards, swim lessons, and other aquatic activities. Oversaw ~100 part-time/full-time employees and managed schedule. Wrote and replaced paper schedule with Ruby & Rails application to simplify my job and scheduling activites for all employees.",
+      "highlights": [
+        "Created first online schedule for ~100 employees and two facilities"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "San Jose State University",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2008-08-01"
+    }
+  ],
+  "awards": [ ],
+  "publications": [ ],
+  "skills": [
+    {
+      "name": "Software Engineering",
+      "level": "Expert",
+      "keywords": [
+        "TDD",
+        "Ruby",
+        "Javascript",
+        "Thrift",
+        "Protocol Buffers",
+        "SOA",
+        "Redis",
+        "Memcached",
+        "MongoDB",
+        "DynamoDB",
+        "RDMS",
+        "Open Source",
+        "Services & APIs"
+      ],
+      "name": "Infrastructure Engineering",
+      "level": "Professional",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Linux",
+        "Automation",
+        "Orchestration"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "A1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "keywords": [
+        "Culture",
+        "Lifestyle",
+        "Europe",
+        "Asia",
+        "Photography",
+        "Meditation",
+        "Yoga"
+      ]
+    },
+    {
+      "name": "Business & Tech",
+      "keywords": [
+        "Software Architecture",
+        "Scaling teams",
+        "Building companies",
+        "Aggressive adoption",
+        "SaSS",
+        "Infrastructure Engineering",
+        "Processes",
+        "Continuous Delivery",
+        "Metrics & Monitoring",
+        "Devops"
+      ]
+    }
+  ]
+}
