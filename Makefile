@@ -53,4 +53,4 @@ html: $(HTML)
 
 .PHONY: clean
 clean:
-	rm -rf $(IMAGE)
+	rm -rf $(IMAGE) $(MD) $(PDF) $(HTML)
