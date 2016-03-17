@@ -12,7 +12,8 @@ $(IMAGE):
 	mkdir -p $(@D)
 	touch $@
 
-$(CV): $(IMAGE)
+.PHONY: init
+init: $(IMAGE)
 	docker run --rm -it \
 		-v $(CURDIR):/data \
 		-w /data \
