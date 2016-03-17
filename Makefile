@@ -14,7 +14,7 @@ $(IMAGE):
 
 $(CV): $(IMAGE)
 	docker run --rm -it \
-		-v $(PWD):/data \
+		-v $(CURDIR):/data \
 		-w /data \
 		$(DOCKER_IMAGE) \
 		resume init
@@ -23,7 +23,7 @@ $(CV): $(IMAGE)
 test: $(IMAGE) $(CV)
 	jq . $(CV) > /dev/null
 	docker run --rm -it \
-		-v $(PWD):/data \
+		-v $(CURDIR):/data \
 		-w /data \
 		$(DOCKER_IMAGE) \
 		resume test
@@ -31,7 +31,7 @@ test: $(IMAGE) $(CV)
 $(PDF): $(IMAGE) $(CV)
 	mkdir -p $(@D)
 	docker run --rm -it \
-		-v $(PWD):/data \
+		-v $(CURDIR):/data \
 		-w /data \
 		$(DOCKER_IMAGE) \
 		resume export $@ --format pdf --theme paper
@@ -42,7 +42,7 @@ pdf: $(PDF)
 $(HTML): $(IMAGE) $(CV)
 	mkdir -p $(@D)
 	docker run --rm -it \
-		-v $(PWD):/data \
+		-v $(CURDIR):/data \
 		-w /data \
 		$(DOCKER_IMAGE) \
 		resume export $@ --format html
